@@ -17,6 +17,7 @@ int main(){
           if(A[mid] >= k) ub = mid;
           else lb =mid;
       }
-  return 0;
   }
+    printf("%d \n", ub);
+    return 0;
 }
